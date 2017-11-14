@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2C0CAA1FB905D600DD8DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CA91FB905D600DD8DA2 /* AppDelegate.swift */; };
+		3B2C0CAC1FB905D600DD8DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CAB1FB905D600DD8DA2 /* ViewController.swift */; };
+		3B2C0CAF1FB905D600DD8DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C0CAD1FB905D600DD8DA2 /* Main.storyboard */; };
+		3B2C0CB11FB905D600DD8DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C0CB01FB905D600DD8DA2 /* Assets.xcassets */; };
+		3B2C0CB41FB905D600DD8DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C0CB21FB905D600DD8DA2 /* LaunchScreen.storyboard */; };
+		3B2C0CBF1FB905D600DD8DA2 /* myMyboxRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CBE1FB905D600DD8DA2 /* myMyboxRoutesTests.swift */; };
+		3B2C0CCA1FB905D600DD8DA2 /* myMyboxRoutesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CC91FB905D600DD8DA2 /* myMyboxRoutesUITests.swift */; };
+		3B2C0CDA1FBA05B500DD8DA2 /* DemoMyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CD91FBA05B500DD8DA2 /* DemoMyNavigationViewController.swift */; };
+		3B2C0CDC1FBA05D400DD8DA2 /* myMapboxUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C0CDB1FBA05D400DD8DA2 /* myMapboxUtility.swift */; };
+		A967901121AC752B079A2479 /* Pods_myMyboxRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B00A01CB6CDA39E184D7D1 /* Pods_myMyboxRoutes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2C0CBB1FB905D600DD8DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2C0C9E1FB905D500DD8DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2C0CA51FB905D600DD8DA2;
+			remoteInfo = myMyboxRoutes;
+		};
+		3B2C0CC61FB905D600DD8DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2C0C9E1FB905D500DD8DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2C0CA51FB905D600DD8DA2;
+			remoteInfo = myMyboxRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24065D42AC64F2D7D2537A2A /* Pods-myMyboxRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myMyboxRoutes.release.xcconfig"; path = "Pods/Target Support Files/Pods-myMyboxRoutes/Pods-myMyboxRoutes.release.xcconfig"; sourceTree = "<group>"; };
+		31B00A01CB6CDA39E184D7D1 /* Pods_myMyboxRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myMyboxRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2C0CA61FB905D600DD8DA2 /* myMyboxRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMyboxRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2C0CA91FB905D600DD8DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2C0CAB1FB905D600DD8DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2C0CAE1FB905D600DD8DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2C0CB01FB905D600DD8DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2C0CB31FB905D600DD8DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2C0CB51FB905D600DD8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2C0CBA1FB905D600DD8DA2 /* myMyboxRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMyboxRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2C0CBE1FB905D600DD8DA2 /* myMyboxRoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMyboxRoutesTests.swift; sourceTree = "<group>"; };
+		3B2C0CC01FB905D600DD8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2C0CC51FB905D600DD8DA2 /* myMyboxRoutesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMyboxRoutesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2C0CC91FB905D600DD8DA2 /* myMyboxRoutesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMyboxRoutesUITests.swift; sourceTree = "<group>"; };
+		3B2C0CCB1FB905D600DD8DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2C0CD91FBA05B500DD8DA2 /* DemoMyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMyNavigationViewController.swift; sourceTree = "<group>"; };
+		3B2C0CDB1FBA05D400DD8DA2 /* myMapboxUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMapboxUtility.swift; sourceTree = "<group>"; };
+		60765ED3FC48534249C797DA /* Pods-myMyboxRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myMyboxRoutes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myMyboxRoutes/Pods-myMyboxRoutes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2C0CA31FB905D600DD8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A967901121AC752B079A2479 /* Pods_myMyboxRoutes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CB71FB905D600DD8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CC21FB905D600DD8DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1181B2EECB04F60669280F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31B00A01CB6CDA39E184D7D1 /* Pods_myMyboxRoutes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B2C0C9D1FB905D500DD8DA2 = {
+			isa = PBXGroup;
+			children = (
+				3B2C0CA81FB905D600DD8DA2 /* myMyboxRoutes */,
+				3B2C0CBD1FB905D600DD8DA2 /* myMyboxRoutesTests */,
+				3B2C0CC81FB905D600DD8DA2 /* myMyboxRoutesUITests */,
+				3B2C0CA71FB905D600DD8DA2 /* Products */,
+				BF20527FD5B1E2C9821CAD70 /* Pods */,
+				1181B2EECB04F60669280F09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2C0CA71FB905D600DD8DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C0CA61FB905D600DD8DA2 /* myMyboxRoutes.app */,
+				3B2C0CBA1FB905D600DD8DA2 /* myMyboxRoutesTests.xctest */,
+				3B2C0CC51FB905D600DD8DA2 /* myMyboxRoutesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2C0CA81FB905D600DD8DA2 /* myMyboxRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C0CA91FB905D600DD8DA2 /* AppDelegate.swift */,
+				3B2C0CAB1FB905D600DD8DA2 /* ViewController.swift */,
+				3B2C0CAD1FB905D600DD8DA2 /* Main.storyboard */,
+				3B2C0CB01FB905D600DD8DA2 /* Assets.xcassets */,
+				3B2C0CB21FB905D600DD8DA2 /* LaunchScreen.storyboard */,
+				3B2C0CB51FB905D600DD8DA2 /* Info.plist */,
+				3B2C0CD91FBA05B500DD8DA2 /* DemoMyNavigationViewController.swift */,
+				3B2C0CDB1FBA05D400DD8DA2 /* myMapboxUtility.swift */,
+			);
+			path = myMyboxRoutes;
+			sourceTree = "<group>";
+		};
+		3B2C0CBD1FB905D600DD8DA2 /* myMyboxRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C0CBE1FB905D600DD8DA2 /* myMyboxRoutesTests.swift */,
+				3B2C0CC01FB905D600DD8DA2 /* Info.plist */,
+			);
+			path = myMyboxRoutesTests;
+			sourceTree = "<group>";
+		};
+		3B2C0CC81FB905D600DD8DA2 /* myMyboxRoutesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C0CC91FB905D600DD8DA2 /* myMyboxRoutesUITests.swift */,
+				3B2C0CCB1FB905D600DD8DA2 /* Info.plist */,
+			);
+			path = myMyboxRoutesUITests;
+			sourceTree = "<group>";
+		};
+		BF20527FD5B1E2C9821CAD70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60765ED3FC48534249C797DA /* Pods-myMyboxRoutes.debug.xcconfig */,
+				24065D42AC64F2D7D2537A2A /* Pods-myMyboxRoutes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B2C0CA51FB905D600DD8DA2 /* myMyboxRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2C0CCE1FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutes" */;
+			buildPhases = (
+				37AF5FDD1F112037088425AC /* [CP] Check Pods Manifest.lock */,
+				3B2C0CA21FB905D600DD8DA2 /* Sources */,
+				3B2C0CA31FB905D600DD8DA2 /* Frameworks */,
+				3B2C0CA41FB905D600DD8DA2 /* Resources */,
+				FB8359819A5E03F97258757F /* [CP] Embed Pods Frameworks */,
+				16A05C2CAF2A6882068F4459 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMyboxRoutes;
+			productName = myMyboxRoutes;
+			productReference = 3B2C0CA61FB905D600DD8DA2 /* myMyboxRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B2C0CB91FB905D600DD8DA2 /* myMyboxRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2C0CD11FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutesTests" */;
+			buildPhases = (
+				3B2C0CB61FB905D600DD8DA2 /* Sources */,
+				3B2C0CB71FB905D600DD8DA2 /* Frameworks */,
+				3B2C0CB81FB905D600DD8DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2C0CBC1FB905D600DD8DA2 /* PBXTargetDependency */,
+			);
+			name = myMyboxRoutesTests;
+			productName = myMyboxRoutesTests;
+			productReference = 3B2C0CBA1FB905D600DD8DA2 /* myMyboxRoutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B2C0CC41FB905D600DD8DA2 /* myMyboxRoutesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2C0CD41FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutesUITests" */;
+			buildPhases = (
+				3B2C0CC11FB905D600DD8DA2 /* Sources */,
+				3B2C0CC21FB905D600DD8DA2 /* Frameworks */,
+				3B2C0CC31FB905D600DD8DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2C0CC71FB905D600DD8DA2 /* PBXTargetDependency */,
+			);
+			name = myMyboxRoutesUITests;
+			productName = myMyboxRoutesUITests;
+			productReference = 3B2C0CC51FB905D600DD8DA2 /* myMyboxRoutesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2C0C9E1FB905D500DD8DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Robert Alavi";
+				TargetAttributes = {
+					3B2C0CA51FB905D600DD8DA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					3B2C0CB91FB905D600DD8DA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B2C0CA51FB905D600DD8DA2;
+					};
+					3B2C0CC41FB905D600DD8DA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B2C0CA51FB905D600DD8DA2;
+					};
+				};
+			};
+			buildConfigurationList = 3B2C0CA11FB905D500DD8DA2 /* Build configuration list for PBXProject "myMyboxRoutes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B2C0C9D1FB905D500DD8DA2;
+			productRefGroup = 3B2C0CA71FB905D600DD8DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2C0CA51FB905D600DD8DA2 /* myMyboxRoutes */,
+				3B2C0CB91FB905D600DD8DA2 /* myMyboxRoutesTests */,
+				3B2C0CC41FB905D600DD8DA2 /* myMyboxRoutesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2C0CA41FB905D600DD8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C0CB41FB905D600DD8DA2 /* LaunchScreen.storyboard in Resources */,
+				3B2C0CB11FB905D600DD8DA2 /* Assets.xcassets in Resources */,
+				3B2C0CAF1FB905D600DD8DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CB81FB905D600DD8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CC31FB905D600DD8DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A05C2CAF2A6882068F4459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myMyboxRoutes/Pods-myMyboxRoutes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37AF5FDD1F112037088425AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myMyboxRoutes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8359819A5E03F97258757F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myMyboxRoutes/Pods-myMyboxRoutes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/OSRMTextInstructions/OSRMTextInstructions.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OSRMTextInstructions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myMyboxRoutes/Pods-myMyboxRoutes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2C0CA21FB905D600DD8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C0CDC1FBA05D400DD8DA2 /* myMapboxUtility.swift in Sources */,
+				3B2C0CAC1FB905D600DD8DA2 /* ViewController.swift in Sources */,
+				3B2C0CDA1FBA05B500DD8DA2 /* DemoMyNavigationViewController.swift in Sources */,
+				3B2C0CAA1FB905D600DD8DA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CB61FB905D600DD8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C0CBF1FB905D600DD8DA2 /* myMyboxRoutesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2C0CC11FB905D600DD8DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C0CCA1FB905D600DD8DA2 /* myMyboxRoutesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2C0CBC1FB905D600DD8DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2C0CA51FB905D600DD8DA2 /* myMyboxRoutes */;
+			targetProxy = 3B2C0CBB1FB905D600DD8DA2 /* PBXContainerItemProxy */;
+		};
+		3B2C0CC71FB905D600DD8DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2C0CA51FB905D600DD8DA2 /* myMyboxRoutes */;
+			targetProxy = 3B2C0CC61FB905D600DD8DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B2C0CAD1FB905D600DD8DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2C0CAE1FB905D600DD8DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2C0CB21FB905D600DD8DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2C0CB31FB905D600DD8DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2C0CCC1FB905D600DD8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B2C0CCD1FB905D600DD8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B2C0CCF1FB905D600DD8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60765ED3FC48534249C797DA /* Pods-myMyboxRoutes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2C0CD01FB905D600DD8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24065D42AC64F2D7D2537A2A /* Pods-myMyboxRoutes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B2C0CD21FB905D600DD8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMyboxRoutes.app/myMyboxRoutes";
+			};
+			name = Debug;
+		};
+		3B2C0CD31FB905D600DD8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMyboxRoutes.app/myMyboxRoutes";
+			};
+			name = Release;
+		};
+		3B2C0CD51FB905D600DD8DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myMyboxRoutes;
+			};
+			name = Debug;
+		};
+		3B2C0CD61FB905D600DD8DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myMyboxRoutesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddstown.myMyboxRoutesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myMyboxRoutes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2C0CA11FB905D500DD8DA2 /* Build configuration list for PBXProject "myMyboxRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2C0CCC1FB905D600DD8DA2 /* Debug */,
+				3B2C0CCD1FB905D600DD8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2C0CCE1FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2C0CCF1FB905D600DD8DA2 /* Debug */,
+				3B2C0CD01FB905D600DD8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2C0CD11FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2C0CD21FB905D600DD8DA2 /* Debug */,
+				3B2C0CD31FB905D600DD8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2C0CD41FB905D600DD8DA2 /* Build configuration list for PBXNativeTarget "myMyboxRoutesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2C0CD51FB905D600DD8DA2 /* Debug */,
+				3B2C0CD61FB905D600DD8DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B2C0C9E1FB905D500DD8DA2 /* Project object */;
+}
