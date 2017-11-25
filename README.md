@@ -12,11 +12,12 @@ A simple app that is using mapbox navigation to get routes information from loca
 ========================================================================
 
 ##### Step 1: Clone the project
-  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  $ git clone https://github.com/lisues/Mapbox_Navigation_Example
 
 ##### Step 2: Install CocoaPods
 
   Installed cocoaPads by running the following commands in terminal:
+  
   $ pod install
 
 ### Builds Requirements 
