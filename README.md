@@ -1,28 +1,36 @@
-# Mapbox_Navigation_Example
 
-###Description 
+# Mapbox_Navigation_Example
+========================================================================
+
+### Description 
+========================================================================
 
 This is a simple app that using mapbox navigation to get routes information from location A to location B. 
 
-###Install
+### Install
 
-#####Step 1: Download CocoaPods
+========================================================================
 
-Installed cocoaPads by running the following commands in terminal:
-  $ sudo gem install cocoapods
-  $ pod setup
+##### Step 1: Clone the project
+  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+##### Step 2: Install CocoaPods
+
+  Installed cocoaPads by running the following commands in terminal:
   $ pod install
 
-###Builds Requirements 
+### Builds Requirements 
 
+========================================================================
 Xcode 8.2.1,  IOS SDK 8.2 or better
 
  
-###Runtime Requirements
+### Runtime Requirements
 
+========================================================================
 iPhone, iPad, or iPod Touch running iOS 8.2.1 or better Xcode 8.2.1,  IOS SDK 8.2.1 or better
  
-###License
-
+### License
+========================================================================
 Copyright © 2017 Apple Inc. All rights reserved
 
