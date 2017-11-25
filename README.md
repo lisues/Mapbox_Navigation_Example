@@ -5,7 +5,7 @@
 ### Description 
 ========================================================================
 
-This is a simple app that using mapbox navigation to get routes information from location A to location B. 
+A simple app that is using mapbox navigation to get routes information from location A to location B. 
 
 ### Install
 
@@ -22,6 +22,7 @@ This is a simple app that using mapbox navigation to get routes information from
 ### Builds Requirements 
 
 ========================================================================
+
 Xcode 8.2.1,  IOS SDK 8.2 or better
 
  
